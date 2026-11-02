@@ -63,3 +63,7 @@ so Terraform will not delete them.
 
 ## Status
 AWS deployment completed and verified in a browser.
+
+## Deployment screenshot
+
+![Website running on AWS EC2](screenshots/website-live.png)
