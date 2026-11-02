@@ -62,8 +62,9 @@ The existing VPC and subnet are referenced, not managed,
 so Terraform will not delete them.
 
 ## Status
-AWS deployment completed and verified in a browser.
+Deployment completed and verified. Lab resources were then
+removed using terraform destroy to avoid ongoing charges.
 
-## Deployment screenshot
-
-![Website running on AWS EC2](screenshots/website-live.png)
+The live website is offline. The deployment screenshot is
+preserved below, and the Terraform code can recreate the lab
+using the existing network.
